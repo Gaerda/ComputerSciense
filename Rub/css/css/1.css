@@ -1,0 +1,50 @@
+.block1 {
+  float: left;
+  width: 20%;
+  background: rgb(38, 24, 224);
+  border: 6px solid rgb(128, 16, 16);
+  border-radius: 15px;
+}
+
+.block2 {
+  float: right;
+  width: 20%;
+  background: rgb(179, 4, 18);
+  border: 6px solid rgb(173, 157, 157);
+  border-radius: 15px;
+}
+
+.button {
+  font-weight: 400;
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+  padding: 1em 1em calc(1em + 3px);
+  border-radius: 4px;
+  background: rgb(243, 57, 57);
+  box-shadow: 0 -8px rgb(207, 20, 3) inset;
+  transition: 0.2s;
+}
+.button:hover {
+  background: rgb(209, 20, 20);
+}
+
+body {
+  height: 1200px;
+}
+
+.button2 {
+  position: fixed;
+  font-weight: 250;
+  bottom: 0%;
+  right: 0%;
+  color: rgba(255, 255, 255, 0.89);
+  text-decoration: none;
+  padding: 40px;
+  border-radius: 30px;
+  border: 6px solid rgb(143, 74, 34);
+  background: rgb(160, 91, 56);
+  transition: 0.2s;
+}
+.btn_zakrep:hover {
+  background: rgb(131, 61, 27);
+}
