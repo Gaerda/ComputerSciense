@@ -1,0 +1,92 @@
+/* Включение отступа и границы в общую ширину и высоту элемента */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Удалите поля и отступы из списка */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Стиль элементов списка */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* сделайте элементы списка невыбираемыми */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Установить все нечетные элементы списка в другой цвет (зебра) */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* Более темный фон-цвет при наведении */
+  ul li:hover {
+    background: #ddd;
+  }
+ 
+  .close {
+    position: absolute;
+    right: 30;
+    top: 030;
+    padding: 3px 3px 3px 3px;
+  }
+
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Стиль заголовка */
+  .header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Очистить поплавки после заголовка */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Стиль ввода */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Стиль кнопки "Добавить" */
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
